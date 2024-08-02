@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="head">
+                <div class="p"><p>Sr.No. <span>0000000</span></p></div>
+                <div class="img"><img src="clg logo.png" alt="logo"></div>
+                <div class="qr"><img src="qr github link.png" alt="qr image"></div>
+            </div>
+            <div class="title">
+                <h2>HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY</h2>
+                <P><b>An Autonomous Institution</b></P>
+                <h1>Annual Statement of Marks</h1>
+            </div>
+            <div class="detail1">
+                <div class="name">
+                    <table>
+                        <tr>
+                            <th>Name of the Candidate</th>
+                        </tr>
+                        <tr><td>Sasti HariKumar KL</td></tr>
+                    </table>
+                </div>
+                <div class="course">
+                    <table>
+                        <tr>
+                            <th>Course name with Code</th>
+                        </tr>
+                        <tr>
+                            <td>Computer Science / CSE-012</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="reg-enrol">
+                    <table>
+                        <tr>
+                            <th>Reg.No.</th>
+                        </tr>
+                        <tr><td>720721104162</td></tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>Enrollment No.</th>
+                        </tr>
+                        <tr><td>720721104162</td></tr>
+                    </table>
+                </div>
+                <div class="centre">
+                    <table>
+                        <tr>
+                            <th>Authorised Training Centre Name with Code</th>
+                        </tr>
+                        <tr> <td>HICET / 2708</td></tr>
+                    </table>
+                </div>
+            </div>
+            <div class="evaluate">
+                <div class="subdet">
+                    <table>
+                        <tr>
+                            <th>Subject Code</th>
+                            <th>Subject Name</th>
+                        </tr>
+                        <tr>
+                            <td>21CS7201</td>
+                            <td style="text-align: left;">Cryptography</td>
+                        </tr>
+                        <tr>
+                            <td>21CS7202</td>
+                            <td style="text-align: left;">Cloud Computing</td>
+                        </tr>
+                        <tr>
+                            <td>21CS7305</td>
+                            <td style="text-align: left;">Software Testing</td>
+                        </tr>
+                        <tr>
+                            <td>21CS7251</td>
+                            <td style="text-align: left;">Machine Learning</td>
+                        </tr>
+                        <tr>
+                            <td>21CS7901</td>
+                            <td style="text-align: left;">Project Phase</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="max-mark">
+                    <table>
+                        <tr>
+                            <th>Max.Marks</th>
+                            <th>Theory</th>
+                            <th>Practical</th>
+                            <th>Total</th>
+                            <th>Total in Words</th>
+                        </tr>
+                        <tr>
+                            <td>100</td>
+                            <td><input type="number" id="theory1" class="theory" max="70" required></td>
+                            <td><input type="number" id="practical1" class="practical" max="30" required></td>
+                            <td><span id="total1">0</span></td>
+                            <td>Eighty Eight</td>
+                        </tr>
+                        <tr>
+                            <td>100</td>
+                            <td><input type="number" id="theory2" class="theory" max="70" required></td>
+                            <td><input type="number" id="practical2" class="practical" max="30" required></td>
+                            <td><span id="total2">0</span></td>
+                            <td>Seventy Seven</td>
+                        </tr>
+                        <tr>
+                            <td>100</td>
+                            <td><input type="number" id="theory3" class="theory" max="70" required></td>
+                            <td><input type="number" id="practical3" class="practical" max="30" required></td>
+                            <td><span id="total3">0</span></td>
+                            <td>Sixty Six</td>
+                        </tr>
+                        <tr>
+                            <td>100</td>
+                            <td><input type="number" id="theory4" class="theory" max="70" required></td>
+                            <td><input type="number" id="practical4" class="practical" max="30" required></td>
+                            <td><span id="total4">0</span></td>
+                            <td>Ninety</td>
+                        </tr>
+                        <tr>
+                            <td>100</td>
+                            <td><input type="number" id="theory5" class="theory" max="70" required></td>
+                            <td><input type="number" id="practical5" class="practical" max="30" required></td>
+                            <td><span id="total5">0</span></td>
+                            <td>Seventy Five</td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+            <div class="grand">
+                <table>
+                    <tr>
+                        <th>Grand Total</th>
+                        <td><span id="finalTotal">000</span></td>
+                    </tr>
+                    <tr>
+                        <th>in Words</th>
+                        <td>Zero Hundred Zero Zero</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="year">
+                <table>
+                    <tr>
+                        <th>Month and Year of Examination</th>
+                        <th>No.of Subject Offered</th>
+                        <th>Result</th>
+                        <th>Percentage</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>May 2020</td>
+                        <td>T5+P5=10</td>
+                        <td><span id="passFail"></span></td>
+                        <td><span id="percentage">00.00%</span></td>
+                        <td><span id="grade">(Grade)</span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bottom">
+                <div class="date">
+                    <p><b>Date :  </b><span>(Date of Result)</span></p></div>
+                    <div class="text"><p>The sample of Annual Statement of Marks is prepared as per <br> skill Development Management Initiative, <br>
+                        Under Ministry of Skill Development and Entrepreneurship,<br> Government of India
+                    </p></div>
+                <div class="sign">
+                    <p><span>(Signature of Deputy Controller of Examination)</span></p>
+                    <p><b>Deputy Controller of Examination</b></p>
+                </div>
+            </div>
+            <div class="indi"><p><b>Subject with &#9733; indicates Exception</b></p></div>
+        </div>
+        <button onclick="calculate()">Evaluate</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

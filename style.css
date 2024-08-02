@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(252, 252, 226);
+}
+.container{
+    border: 4.5px solid rgb(2, 8, 100);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.head{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 120px;
+    padding-top: 15px;
+
+}
+.head img{
+    height: 110px;
+    width: 110px;
+    margin-left: 25%;
+}
+span{
+    color: rgb(126, 6, 6);
+}
+.title{
+    text-align: center;
+}
+.title h2,p{
+    color: rgb(3, 3, 100);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title h1{
+    color: rgb(163, 90, 6);
+}
+.detail1{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+table{
+    
+    background-color: rgb(228, 246, 252);
+    width: 100%;
+    height: 90px;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+th,tr{
+    border: 1px solid rgb(2, 8, 100);
+}
+.reg-enrol{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+th{
+    color: rgb(163, 90, 6);
+}
+.evaluate{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+input{
+    border: none;
+    width: 35%;
+    padding: 1px;
+}
+.grand{
+    text-align: left;
+}
+.year{
+    text-align: center;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #797a7a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.bottom{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.sign{
+    text-align: center;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(115, 126, 129);
+}
+.indi{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.qr{
+    margin-left: 50%;
+}
